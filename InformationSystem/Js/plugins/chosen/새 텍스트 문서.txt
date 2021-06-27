@@ -1,0 +1,1 @@
+https://www.sitepoint.com/jquery-select-box-components-chosen-vs-select2/

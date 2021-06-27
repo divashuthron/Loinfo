@@ -1,0 +1,218 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="author" content="연성대학교" />
+<meta name="description" content="연성대학교" />
+<meta name="keywords" content="연성대학교" />
+<title>연성대학교 - 신청리스트</title>
+<script src="/js/jquery-3.1.1.min.js"></script>
+<body>
+
+<table width="100%" border="1" cellspacing="0" cellpadding="1" bordercolor='#CCCCCC' style='border-collapse: collapse'>
+  <tr height="25" align="center">
+    <td><p style="font-weight: 800;">번호</p></td>
+    <td><p style="font-weight: 800;">고교명</p></td>
+    <td><p style="font-weight: 800;">주소</p></td>
+	<td><p style="font-weight: 800;">설명회요청내용</p></td>
+	<td><p style="font-weight: 800;">희망장소</p></td>
+	<td><p style="font-weight: 800;">고교설명회장소</p></td>
+	<td><p style="font-weight: 800;">기자재현황</p></td>
+	<td><p style="font-weight: 800;">희망시작일시</p></td>
+	<td><p style="font-weight: 800;">종료시간</p></td>
+	<td><p style="font-weight: 800;">참여예상인원(학생)</p></td>
+	<td><p style="font-weight: 800;">참여예상인원(교사)</p></td>
+	<td><p style="font-weight: 800;">담당선생님(성명)</p></td>
+	<td><p style="font-weight: 800;">담당선생님(핸드폰)</p></td>
+	<td><p style="font-weight: 800;">담당선생님(이메일)</p></td>
+	<td><p style="font-weight: 800;">기타요청사항</p></td>
+	<td><p style="font-weight: 800;">신청IP</p></td>
+  </tr>
+  <tr height='25' align='center' bgcolor='#FFFFFF'>
+    <td style="mso-number-format:'\@'">1</td>
+    <td style="mso-number-format:'\@'">수도권수시박람회</td>
+    <td style="mso-number-format:'\@'">(14780) 경기 부천시 경인로 590 (괴안동, 유한대학) -</td>
+    <td style="mso-number-format:'\@'">박람회</td>
+    <td style="mso-number-format:'\@'">연성대학교방문</td>
+    <td style="mso-number-format:'\@'">유한대학교</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">2019-07-20 10:00</td>
+    <td style="mso-number-format:'\@'">17:00</td>
+    <td style="mso-number-format:'\@'">5000</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">000-000-0000</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">114.70.77.71</td>
+  </tr>
+  <tr height='25' align='center' bgcolor='#FFFFFF'>
+    <td style="mso-number-format:'\@'">2</td>
+    <td style="mso-number-format:'\@'">수도권수시박람회</td>
+    <td style="mso-number-format:'\@'">(14780) 경기 부천시 경인로 590 (괴안동, 유한대학) -</td>
+    <td style="mso-number-format:'\@'">박람회</td>
+    <td style="mso-number-format:'\@'">연성대학교방문</td>
+    <td style="mso-number-format:'\@'">유한대학교</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">2019-07-19 10:00</td>
+    <td style="mso-number-format:'\@'">17:00</td>
+    <td style="mso-number-format:'\@'">5000</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">000-000-0000</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">114.70.77.71</td>
+  </tr>
+  <tr height='25' align='center' bgcolor='#FFFFFF'>
+    <td style="mso-number-format:'\@'">3</td>
+    <td style="mso-number-format:'\@'">부곡고등학교</td>
+    <td style="mso-number-format:'\@'">(15278) 경기 안산시 상록구 시낭로 78 (부곡동, 부곡고등학교) -</td>
+    <td style="mso-number-format:'\@'">1:1 개별 상담 지원(수시전형 안내, 학생부 컨설팅 등)</td>
+    <td style="mso-number-format:'\@'">연성대학교방문</td>
+    <td style="mso-number-format:'\@'">부곡고등학교 다목적 체육관 / 전관 2층</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">2019-07-16 10:00</td>
+    <td style="mso-number-format:'\@'">16:00</td>
+    <td style="mso-number-format:'\@'">60</td>
+    <td style="mso-number-format:'\@'">1</td>
+    <td style="mso-number-format:'\@'">부곡고등학교 진로상담복지부</td>
+    <td style="mso-number-format:'\@'">010-2724-0885</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">x</td>
+    <td style="mso-number-format:'\@'">114.70.77.71</td>
+  </tr>
+  <tr height='25' align='center' bgcolor='#FFFFFF'>
+    <td style="mso-number-format:'\@'">4</td>
+    <td style="mso-number-format:'\@'">인천교육청(인천재능대학)</td>
+    <td style="mso-number-format:'\@'">(22573) 인천 동구 재능로 178 (송림동, 재능대학) -</td>
+    <td style="mso-number-format:'\@'">박람회</td>
+    <td style="mso-number-format:'\@'">연성대학교방문</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">2019-06-01 10:00</td>
+    <td style="mso-number-format:'\@'">16:00</td>
+    <td style="mso-number-format:'\@'">3000</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">이덕한</td>
+    <td style="mso-number-format:'\@'">032-420-8412</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">114.70.77.71</td>
+  </tr>
+  <tr height='25' align='center' bgcolor='#FFFFFF'>
+    <td style="mso-number-format:'\@'">5</td>
+    <td style="mso-number-format:'\@'">병천고등학교</td>
+    <td style="mso-number-format:'\@'">(31256) 충남 천안시 동남구 병천면 충절로 1872 (탑원리, 병천중고등학교) -</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">연성대학교방문</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">2019-05-29 10:00</td>
+    <td style="mso-number-format:'\@'">10:30</td>
+    <td style="mso-number-format:'\@'">36</td>
+    <td style="mso-number-format:'\@'">2</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">010-0000-0000</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">114.70.77.71</td>
+  </tr>
+  <tr height='25' align='center' bgcolor='#FFFFFF'>
+    <td style="mso-number-format:'\@'">6</td>
+    <td style="mso-number-format:'\@'">성안고등학교</td>
+    <td style="mso-number-format:'\@'">(15578) 경기 안산시 상록구 용신로 170 (사동, 성안고등학교) 성안고등학교</td>
+    <td style="mso-number-format:'\@'">선배와의 만남, 학과 설명회</td>
+    <td style="mso-number-format:'\@'">연성대학교방문</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">2019-06-14 14:30</td>
+    <td style="mso-number-format:'\@'">15:30</td>
+    <td style="mso-number-format:'\@'">17</td>
+    <td style="mso-number-format:'\@'">2</td>
+    <td style="mso-number-format:'\@'">함지혜</td>
+    <td style="mso-number-format:'\@'">010-9268-9076</td>
+    <td style="mso-number-format:'\@'">aa@aa.aa</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">114.70.77.80</td>
+  </tr>
+  <tr height='25' align='center' bgcolor='#FFFFFF'>
+    <td style="mso-number-format:'\@'">7</td>
+    <td style="mso-number-format:'\@'">수성고등학교(대구)</td>
+    <td style="mso-number-format:'\@'">(42218) 대구 수성구 용학로28길 36 (지산동, 수성고등학교) 수성고등학교</td>
+    <td style="mso-number-format:'\@'">학과 수업 참관</td>
+    <td style="mso-number-format:'\@'">연성대학교방문</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">2019-05-17 12:00</td>
+    <td style="mso-number-format:'\@'">14:30</td>
+    <td style="mso-number-format:'\@'">18</td>
+    <td style="mso-number-format:'\@'">1</td>
+    <td style="mso-number-format:'\@'">오동근</td>
+    <td style="mso-number-format:'\@'">010-3305-5510</td>
+    <td style="mso-number-format:'\@'">aa@aa.aa</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">114.70.77.80</td>
+  </tr>
+  <tr height='25' align='center' bgcolor='#FFFFFF'>
+    <td style="mso-number-format:'\@'">8</td>
+    <td style="mso-number-format:'\@'">MetisSoft</td>
+    <td style="mso-number-format:'\@'">(63309) 제주특별자치도 제주시 영평동 2181 </td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">연성대학교방문</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">2019-05-02 00:00</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">123-213</td>
+    <td style="mso-number-format:'\@'">MetisSoft</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">220.90.136.236</td>
+  </tr>
+  <tr height='25' align='center' bgcolor='#FFFFFF'>
+    <td style="mso-number-format:'\@'">9</td>
+    <td style="mso-number-format:'\@'">연성고등학교</td>
+    <td style="mso-number-format:'\@'">(14011) 경기 안양시 만안구 양화로37번길 34 (안양동, 연성대학교) 연성대학교</td>
+    <td style="mso-number-format:'\@'">전공에 대한 설명 요청</td>
+    <td style="mso-number-format:'\@'">해당 고교방문</td>
+    <td style="mso-number-format:'\@'">운동장</td>
+    <td style="mso-number-format:'\@'">A, B, C, D</td>
+    <td style="mso-number-format:'\@'">2019-04-29 10:00</td>
+    <td style="mso-number-format:'\@'"></td>
+    <td style="mso-number-format:'\@'">2336</td>
+    <td style="mso-number-format:'\@'">48</td>
+    <td style="mso-number-format:'\@'">이기수</td>
+    <td style="mso-number-format:'\@'">010-1234-3456</td>
+    <td style="mso-number-format:'\@'">kk@yeonsung.ac.kr</td>
+    <td style="mso-number-format:'\@'">입학 관련 자료 사전에 이메일로 보내주시면 감사하겠습니다.</td>
+    <td style="mso-number-format:'\@'">114.70.77.80</td>
+  </tr>
+  <tr height='25' align='center' bgcolor='#FFFFFF'>
+    <td style="mso-number-format:'\@'">10</td>
+    <td style="mso-number-format:'\@'">세일고등학교9</td>
+    <td style="mso-number-format:'\@'">(21368) 인천 부평구 원적로 245 (산곡동, 세일고등학교) 1학년2반9</td>
+    <td style="mso-number-format:'\@'">설명회요청내용9</td>
+    <td style="mso-number-format:'\@'">해당 고교방문</td>
+    <td style="mso-number-format:'\@'">고교설명회 장소9</td>
+    <td style="mso-number-format:'\@'">B</td>
+    <td style="mso-number-format:'\@'">2019-03-22 00:35</td>
+    <td style="mso-number-format:'\@'">2019-03-30 00:00</td>
+    <td style="mso-number-format:'\@'">1명9</td>
+    <td style="mso-number-format:'\@'">2명9</td>
+    <td style="mso-number-format:'\@'">홍길동9</td>
+    <td style="mso-number-format:'\@'">010-7475-5857</td>
+    <td style="mso-number-format:'\@'">test@naver.com9</td>
+    <td style="mso-number-format:'\@'">요청없습니다.9</td>
+    <td style="mso-number-format:'\@'">220.90.136.236</td>
+  </tr>
+
+</table>
+
+</body>
+</html>

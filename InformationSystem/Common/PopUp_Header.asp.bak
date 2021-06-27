@@ -1,0 +1,48 @@
+﻿<%@  codepage="65001" language="VBScript" %>
+<!--#InClude Virtual = "/Common/Include/Function.asp" -->
+<%
+'// 학교코드, 모집시기, 관심학과1, 관심학과2, 등급, 환산점수, 점수환산방식, 정시표준점수 쿠키에서 가져오기
+Dim TopSchoolCode		: TopSchoolCode = IsEnV(StringToSQL(Request.Cookies("Interview")("SchoolCode")), "")
+Dim TopGradeType		: TopGradeType = IsEnV(StringToSQL(Request.Cookies("Interview")("GradeType")), "")
+Dim TopSubjectYear		: TopSubjectYear = IsEnV(StringToSQL(Request.Cookies("Interview")("SubjectYear")), "")
+Dim TopSchoolSubject_1	: TopSchoolSubject_1 = IsEnV(StringToSQL(Request.Cookies("Interview")("SchoolSubject_1")), "")
+Dim TopSchoolSubject_2	: TopSchoolSubject_2 = IsEnV(StringToSQL(Request.Cookies("Interview")("SchoolSubject_2")), "")
+Dim TopSchoolGrage		: TopSchoolGrage = IsEnV(StringToSQL(Request.Cookies("Interview")("SchoolGrage")), "")
+Dim TopSchoolScore		: TopSchoolScore = IsEnV(StringToSQL(Request.Cookies("Interview")("SchoolScore")), "")
+Dim TopGradeCalculation : TopGradeCalculation = IsEnV(StringToSQL(Request.Cookies("Interview")("GradeCalculationType")), "")
+Dim TopAbilityTestScore	: TopAbilityTestScore = IsEnV(StringToSQL(Request.Cookies("Interview")("ScholasticAbilityTestScore")), "")
+
+'// 메인페이지 여부 체크
+Dim MainPageCheck			: MainPageCheck = instr(ASP_SELF_URL, "/index.asp")
+
+'// 학교 코드 / 모집시기 / 년도 쿠키 강제 입력
+Response.Cookies("Interview")("SchoolCode")		= TopSchoolCode
+Response.Cookies("Interview")("GradeType")		= TopGradeType
+Response.Cookies("Interview")("SubjectYear")	= TopSubjectYear
+
+
+If Not(IsE(fnRQ("GradeType"))) then
+	Response.Cookies("Interview")("GradeType") = StringToSQL(fnRQ("GradeType"))
+	TopGradeType = Request.Cookies("Interview")("GradeType")
+End If
+%>
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>면접 예약 시스템</title>
+
+        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+
+        <script type="text/javascript" src="/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/Js/Jquery.plugins/jquery.form.js"></script>
+        <script type="text/javascript" src="/Js/Jquery.plugins/jquery.blockUI.js"></script>
+        <script type="text/javascript" src="/Js/Jquery.plugins/jquery.url.js"></script>
+        <script type="text/javascript" src="/Js/Jquery.plugins/jquery.printThis.js"></script>
+        <script type="text/javascript" src="/Js/common.js"></script>
+		<script type="text/javascript" src="/Js/common.MetisSoft.js"></script>
+	</head>
+
+    <body>

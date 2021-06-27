@@ -1,0 +1,38 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="author" content="발송 리스트" />
+<meta name="description" content="발송 리스트" />
+<meta name="keywords" content="발송 리스트" />
+<title>발송 리스트</title>
+<body>
+
+<table border="1" cellspacing="0" cellpadding="1" bordercolor='#CCCCCC' style='border-collapse: collapse'>
+  <tr height="25" align="center">
+	<td><p style="font-weight: 800;">이름</p></td>
+	<td><p style="font-weight: 800;">전화번호</p></td>
+    
+		<td><p style="font-weight: 800;">알림톡 실패사유</p></td>
+		<td><p style="font-weight: 800;">MMS 실패사유</p></td>
+	
+  </tr>
+  <tr height='25' align='center' bgcolor='#FFFFFF'>
+    <td style="mso-number-format:'\@'">신승용</td>
+    <td style="mso-number-format:'\@'">01074755857</td>
+    <td style="mso-number-format:'\@'">전달</td>
+    <td style="mso-number-format:'\@'"></td>
+  </tr>
+  <tr height='25' align='center' bgcolor='#FFFFFF'>
+    <td style="mso-number-format:'\@'">백동철</td>
+    <td style="mso-number-format:'\@'">01089517228</td>
+    <td style="mso-number-format:'\@'">전달</td>
+    <td style="mso-number-format:'\@'"></td>
+  </tr>
+
+</table>
+
+</body>
+</html>
