@@ -30,12 +30,9 @@
 <script language="javascript">
     $(function () {
         var $UserID = $("#UserID");
-        var $Passwd = $("#Passwd");
+        var $Passwd = $("#Password");
         
         $("#goLogin").click(function () {
-            $UserID = $("#UserID");
-            $Passwd = $("#Passwd");
-
             $("#form").submit();
         });
 
@@ -46,7 +43,7 @@
                 var $objList = $(datas).find("List");
                 
                 if ($objList.find("Result").text() == "true") {
-                    document.location.href = "/Lostark/forms.html";
+                    document.location.href = "/Lostark/Index.asp";
                 } else {
                     alert("입력하신 아이디 혹은 비밀번호가 일치하지 않습니다.");
                     $UserID.focus();
@@ -112,7 +109,7 @@
 			<div class="form-row">
 			 <div class="form-group col-6">
 			   <div class="icheck-material-white">
-                <input type="checkbox" id="Save" name="Save" checked="" />
+                <input type="checkbox" id="user-checkbox" name="Save"/>
                 <label for="user-checkbox">ID 저장</label>
 			  </div>
 			 </div>

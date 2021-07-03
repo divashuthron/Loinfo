@@ -24,10 +24,10 @@ Dim ASP_BEFORE_URL			: ASP_BEFORE_URL			= Request.ServerVariables("HTTP_REFERER"
 Dim ASP_USER_IP				: ASP_USER_IP				= Request.ServerVariables("REMOTE_ADDR")
 
 '============= 로그인 정보 세팅 ==============================
-Dim SessionUserID			: SessionUserID				= base64_decode(Session("MemberID"))
+Dim SessionUserID			: SessionUserID				= Session("ID")
 'Dim SessionUserID			: SessionUserID				= base64_decode(Request.Cookies("InformationAdmin")("EmpID"))
-Dim SessionUserName			: SessionUserName			= Request.Cookies("LoInfo")("NickName")
-Dim SessionClientLevel		: SessionClientLevel		= Request.Cookies("LoInfo")("ClientLevel")
+Dim SessionUserName			: SessionUserName			= Session("NickName")
+Dim SessionClientLevel		: SessionClientLevel		= Session("ClientLevel")
 
 '============== 환경설정 정보 세팅 ============================
 'Dim SessionMYear			: SessionMYear				= Request.Cookies("LoInfo")("MYear")
